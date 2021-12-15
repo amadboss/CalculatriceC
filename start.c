@@ -49,7 +49,6 @@ void calculator (int i, char **argv, int *p_tour, int arg, float *p_p1_tab, char
 				
 				if(*p_tour == 1)
 				{
-					//puts("on a bien fait le calcule dans la premiere partie ");
 					if(p_p2_tab[0] == '+')
 					{
 						*p_p1_tab += p_p1_tab[0] + atof(argv[i-1]) * atof(argv[i+1]);
